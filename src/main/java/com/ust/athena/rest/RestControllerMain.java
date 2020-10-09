@@ -27,7 +27,7 @@ public class RestControllerMain {
 
 	@GetMapping("/")
 	public String home() {
-		return myService.message() + "</br>" + apimessage;
+		return myService.message() + "</br>Changed</br>" + apimessage;
 	}
 
 	public String getApimessage() {
